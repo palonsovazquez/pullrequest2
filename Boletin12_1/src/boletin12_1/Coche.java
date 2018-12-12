@@ -60,7 +60,7 @@ public class Coche {
     @Override
     public int hashCode() {
         int hash = 7;
-        hash = 6 1* hash + Objects.hashCode(this.matricula);
+        hash = 61 * hash + Objects.hashCode(this.matricula);
         return hash;
     }
 
